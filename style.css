@@ -1,0 +1,93 @@
+.carousel-text-heading{
+  margin-top: 500px;
+}
+
+.carousel-text-description{
+  margin-bottom: -20px;
+  margin-top: 9px;
+  background-color: black;
+
+}
+
+.home,
+.order,
+.contact-us,
+.more{
+  transition: opacity 0.15s;
+}
+
+.home:hover{
+  opacity: 0.7;
+}
+
+.order:hover{
+  opacity: 0.7;
+}
+.contact-us:hover{
+  opacity: 0.7;
+}
+
+.more:hover{
+  opacity: 0.7;
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+
+.order-row{
+text-align: center;
+
+
+}
+
+.order-desc{
+  background-color: rgb(255, 243, 72);
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+
+.order-button{
+  text-align: center;
+}
+
+.modal-body form .row{
+
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.modal-body form .row .col{
+
+ flex: 1fr 1fr;
+  
+  }
+
+  .modal-body form .row .col .flex{
+    display: flex;
+    gap: 15px;
+  }
+
+  .about-us{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-us-desc{
+    text-align: center;
+   font-size: 1rem;
+  }
+
+
+
+
+
+
